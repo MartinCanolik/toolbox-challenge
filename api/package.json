@@ -1,0 +1,33 @@
+{
+  "name": "toolbox-files-api",
+  "version": "1.0.0",
+  "description": "REST API that fetches and formats CSV files from external service",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "mocha --timeout 10000 'test/**/*.test.js'",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "dependencies": {
+    "axios": "0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "nock": "^13.3.8",
+    "standard": "^17.1.0",
+    "supertest": "^6.3.4"
+  }
+}

@@ -1,0 +1,135 @@
+/* ── Loading / empty states ─────────────────────────────────── */
+.table-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  color: #9b94ac;
+}
+
+.state-spinner {
+  color: #ff3b5c !important;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.state-text {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.state-empty-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.75rem;
+  opacity: 0.4;
+}
+
+/* ── Alert ──────────────────────────────────────────────────── */
+.table-alert {
+  background: rgba(185, 28, 28, 0.1) !important;
+  border-color: #b91c1c !important;
+  color: #f85149 !important;
+}
+
+.table-alert .alert-heading {
+  color: #f85149 !important;
+}
+
+/* ── Table card ─────────────────────────────────────────────── */
+.table-card {
+  background: rgba(16, 11, 30, 0.55);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(139, 92, 246, 0.18);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table-card-header {
+  padding: 0.75rem 1.25rem;
+  border-bottom: 1px solid rgba(139, 92, 246, 0.18);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.table-count {
+  font-size: 0.8rem;
+  color: #9b94ac;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+/* ── Table ──────────────────────────────────────────────────── */
+.files-table {
+  margin: 0 !important;
+  color: #f0ecf7 !important;
+  border-color: rgba(139, 92, 246, 0.12) !important;
+  font-size: 0.875rem;
+}
+
+.files-table thead th {
+  background: rgba(139, 92, 246, 0.08) !important;
+  color: #b0a8c2 !important;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border-bottom-color: rgba(139, 92, 246, 0.18) !important;
+  white-space: nowrap;
+  padding: 0.75rem 1.25rem;
+}
+
+.files-table tbody tr {
+  border-color: rgba(139, 92, 246, 0.1) !important;
+}
+
+.files-table tbody tr:hover td {
+  background: rgba(139, 92, 246, 0.08) !important;
+}
+
+.files-table tbody td {
+  padding: 0.6rem 1.25rem;
+  vertical-align: middle;
+  border-color: rgba(139, 92, 246, 0.1) !important;
+  background: transparent !important;
+  color: var(--color-text-muted) !important;
+}
+
+/* ── Cells ──────────────────────────────────────────────────── */
+.file-chip {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #ff7088;
+  background: rgba(255, 59, 92, 0.12);
+  border: 1px solid rgba(255, 59, 92, 0.3);
+  border-radius: 4px;
+  padding: 0.15rem 0.5rem;
+  white-space: nowrap;
+}
+
+.files-table .number-badge {
+  display: inline-block;
+  background-color: #8962ff;
+  color: #ffffff;
+  border: 1px solid rgba(137, 98, 255, 0.6);
+  font-weight: 600;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  border-radius: 15px;
+  padding: 0.15rem 0.4rem;
+}
+
+.hex-value {
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: 0.78rem;
+  color: #d2a8ff;
+  background: rgba(210, 168, 255, 0.06);
+  border: 1px solid rgba(210, 168, 255, 0.12);
+  border-radius: 4px;
+  padding: 0.1rem 0.4rem;
+  letter-spacing: 0.03em;
+  word-break: break-all;
+}
